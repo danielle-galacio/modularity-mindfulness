@@ -7,21 +7,30 @@ a {
   text-decoration: none;
 }
 
-i {
+h1>i {
   font-style: normal;
 }
 
 .link {
-  border-bottom: 3px solid #8bc9d9;
+  border-bottom: 2px solid #8bc9d9;
   color: #005e76;
+}
+
+.link:hover {
+  color: #005e76;
+  border-color: #005e76;
 }
 
 ul {
   margin: 0;
 }
 
+p, h1, h2 {
+  color: #000;
+}
+
 .embed-16by9 {
-  padding-top: 21%;
+  padding-top: 20.5%;
 }
 
 @media only screen and (min-width: 60em) {
@@ -33,6 +42,33 @@ ul {
 
 }
 
+@media only screen and (min-width: 38em) {
+
+  .section {
+    padding-right: 12px;
+  }
+
+}
+
 hr {
   border-color: #e2e2e2;
+}
+
+.btn {
+  color: #005e76;
+  border: 2px solid #8bc9d9;
+}
+
+.btn:hover {
+  background-color: #8bc9d9;
+  border-color: #005e76;
+  color: #005e76;
+}
+
+footer {
+  color: #e2e2e2;
+}
+
+.flexgrow {
+  flex-grow: 1;
 }
